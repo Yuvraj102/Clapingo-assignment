@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "632b43f1675d2ce8e93b9fd2"
+  },
+  "name": "john",
+  "email": "john@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$XWZdlm7ygfYqjTnSMjz.6u/DQOb2/HKgpe69B3F3V5zWTJPPGBoJO",
+  "college": "oxford",
+  "fav": [
+    {
+      "$oid": "632b443e675d2ce8e93b9fe1"
+    },
+    {
+      "$oid": "632b4436675d2ce8e93b9fde"
+    }
+  ],
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "632b4400675d2ce8e93b9fd5"
+  },
+  "name": "sam",
+  "email": "sam@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$mc0Ogs7cPtzzu4Ru6TJzdOCn9cywvtmnG/9OBNyIkEh4VmnEgHwEq",
+  "college": "oxford",
+  "fav": [
+    {
+      "$oid": "632b443e675d2ce8e93b9fe1"
+    }
+  ],
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "632b4b4bd84a3f1b1fff7888"
+  },
+  "name": "tim",
+  "email": "tim@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$.snAiVwrr8PWbzfN6oS/LO/88vK6lLzBaC05ab9SNIZaW0C4nRZne",
+  "college": "oxford",
+  "fav": [
+    {
+      "$oid": "632b4436675d2ce8e93b9fde"
+    }
+  ],
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "632b4bd3d84a3f1b1fff7894"
+  },
+  "name": "spandan",
+  "email": "spandan@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$fSB4CZZwtat7ev5BR/uZm.xtk.RPtKkMT.r9IshmuiErWMn6bCiGy",
+  "college": "oxford",
+  "fav": [
+    {
+      "$oid": "632b4436675d2ce8e93b9fde"
+    }
+  ],
+  "__v": 1
+}]

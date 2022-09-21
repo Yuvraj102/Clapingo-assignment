@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "632b4423675d2ce8e93b9fd8"
+  },
+  "name": "prof P",
+  "email": "profp@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$YTZRf1MMn1Jub17Y741T2eZgwjpUbvndS57CNtgmA3Na18caYGTD2",
+  "college": "oxford",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b442e675d2ce8e93b9fdb"
+  },
+  "name": "prof Q",
+  "email": "profq@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$CCgocARlc45FQk7QREBE1eDgQH6dEJM.i42wtgtl.TgrClcNrFyLC",
+  "college": "oxford",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b4436675d2ce8e93b9fde"
+  },
+  "name": "prof R",
+  "email": "profr@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$BvV2lro1Jp8MLewmbzyd6edXAUHCkvzuAwJ0OJv/UCFJw1PtVgGn2",
+  "college": "oxford",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b443e675d2ce8e93b9fe1"
+  },
+  "name": "prof s",
+  "email": "profs@gmail.com",
+  "phone": {
+    "$numberLong": "9800000000"
+  },
+  "password": "$2b$10$prncexGuNSNReqcLS51sTeeZI5G.z7BULPMBiyVJIqkF6sI9Ia4wa",
+  "college": "oxford",
+  "__v": 0
+}]
