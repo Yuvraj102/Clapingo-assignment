@@ -56,8 +56,8 @@
   "_id": {
     "$oid": "632b4bd3d84a3f1b1fff7894"
   },
-  "name": "spandan",
-  "email": "spandan@gmail.com",
+  "name": "ammy",
+  "email": "ammy@gmail.com",
   "phone": {
     "$numberLong": "9800000000"
   },
