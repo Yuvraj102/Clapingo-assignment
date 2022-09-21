@@ -7,6 +7,7 @@
 # ROUTES
 
 > Below is the documentation to use API, use API client such as POSTMAN or PAW etc
+*students.json and teachers.json is dummy data that could be used, those files are present at root of the repo*
 
 1. **Signup Route**: `localhost:3000/auth/signup` , A user can signup on this route, Details are imp send them as body in JSON format, below are all required fields
    this route returns token as response and also as cookie
@@ -31,14 +32,14 @@ feel free to use your own values
 }
 `
 
-3. **add favourite teacher**: `localhost:3000/feature/addfav?email=profr@gmail.com`, For this you need to set `Authorization` as `Bearer Token-Value` in request header or you need to have the cookie set which will atuomatically happen when you login or register
-   make sure that you are logged in or signed up as student only
-   request will return `success` status once ran successfully
-   send `email` of teacher as query 
+3. **add favourite teacher**: `localhost:3000/feature/addfav?email=profr@gmail.com`, For this you need to set `Authorization` as `Bearer Token-Value` in request header or you need to have the cookie set which will atuomatically happen when you login or register,
+   make sure that you are logged in or signed up as student only,
+   request will return `success` status once ran successfully,
+   note: as shown send `email` of teacher as query 
    
-4. **remove favourite teacher**: `localhost:3000/feature/removefav?email=james@gmail.com`, For this you need to set `Authorization` as `Bearer Token-Value` in request header or you need to have the cookie set which will atuomatically happen when you login or register
-   make sure that you are logged in or signed up as student only
-   request will return `success` status once ran successfully
+4. **remove favourite teacher**: `localhost:3000/feature/removefav?email=james@gmail.com`, For this you need to set `Authorization` as `Bearer Token-Value` in request header or you need to have the cookie set which will atuomatically happen when you login or register,
+   make sure that you are logged in or signed up as student only,
+   request will return `success` status once ran successfully,
    send `email` of teacher as query
    
 5. **get most favourite teacher**: `localhost:3000/feature/getfav`, This route will return most favourite teacher using aggregation, 
